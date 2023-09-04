@@ -1,9 +1,8 @@
 package net.lucianodacunha.intro
 
-import kotlin.math.PI
-import kotlin.reflect.typeOf
-
 /**
+ * Exercícios abrangendo variáveis, tipos de dados e operadores:
+ *
  * Crie um programa capaz de atender os requisitos abaixo:
  * a. Crie um novo arquivo com uma função main.
  * b. Declare uma variável mutável capaz de armazenar seu nome completo.
@@ -16,12 +15,11 @@ import kotlin.reflect.typeOf
  * Rode seu programa de maneira que não tenha erros de compilação ou execução.
  */
 
-fun main(){
-    var var1 = "Luciano Cunha"
-    var semValor: String
-    val valorMenor: Byte = 40
+fun main(){ // a
+    var var1 = "Luciano Cunha" // b
+    var semValor: String // c
+    val valorMenor: Byte = 40 // d
     val PIB: Long = 1869000000000
     val popBrasil: Int = 211000000
     println("valor do PIB per capita ${PIB / popBrasil}")
-    
 }
