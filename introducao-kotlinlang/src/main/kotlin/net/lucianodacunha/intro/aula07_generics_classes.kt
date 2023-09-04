@@ -1,4 +1,4 @@
-package net.lucianoais dedacunha.intro
+package net.lucianodacunha.intro
 
 /**
  * Demonstra a criação de classes utilizando Generics.
